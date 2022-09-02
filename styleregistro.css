@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Mukta:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form-login {
+    width: 500px;
+    height: 400px;
+    background: #F9D3C8;
+    margin: auto;
+    margin-top: 200px;
+    box-shadow: 7px 13px 37px #F16944;
+    padding: 20px 30px;
+}
+
+.form-login h2 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+
+}
+
+body{
+    font-family: 'Mukta', sans-serif;
+    background-image: url(./libreriaseccion.jpeg);
+     
+}
+
+.controls {
+    width: 100%;
+    border: 1px solid #F16944 ;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+
+}
+
+.buttons {
+    width: 100%;
+    height: 40px;
+    background:#F16944 ;
+    border: none;
+    color: black;
+    margin-bottom: 16px;}
+
+
+
+
+.form-login a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+
+.form-login a:hover {
+    text-decoration: underline;
+
+}
